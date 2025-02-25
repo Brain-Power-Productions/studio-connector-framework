@@ -84,12 +84,3 @@ export default class MyConnector implements Media.MediaConnector {
     };
   }
 }
-
-fetch("https://cp-wmv-716.cpstaging.online/grafx/api/v1/environment/cp-wmv-716/connectors/dc54d855-7178-44a7-9c8e-dd6ea88ae850/proxy?h=54cad6ca637a8c873d286645933d1cf8", {
-  "headers": {
-    "authorization": "Bearer <YOUR_TOKEN>",
-    "x-grafx-proxy-external-authentication-source": "server",
-    "x-grafx-proxy-external-method": "GET",
-    "x-grafx-proxy-external-url": "https://dev.devapi.chiligrafx-dev.com/fake-connector",
-  },
-});
